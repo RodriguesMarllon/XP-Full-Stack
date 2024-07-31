@@ -1,19 +1,13 @@
 ﻿using ExemploFundamentos.Models;
 
-Console.WriteLine("Type a letter: ");
-string letter = Console.ReadLine();
+bool isOfLegalAge = true;
+bool hasAuthorization = false;
 
-switch (letter)
+if (isOfLegalAge || hasAuthorization)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vowel");
-        break;
-
-    default:   
-        Console.WriteLine("Is not a vowel");
-        break;
+    Console.WriteLine("Access allowed!");
+}
+else
+{
+    Console.WriteLine("Access denied!");
 }
