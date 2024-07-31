@@ -1,23 +1,19 @@
 ﻿using ExemploFundamentos.Models;
 
-int quantityInStock = 10;
-int quantityPurchase = 0;
-bool isPossibleSale = quantityPurchase > 0 && quantityInStock >= quantityPurchase;
+Console.WriteLine("Type a letter: ");
+string letter = Console.ReadLine();
 
-Console.WriteLine($"Quantity in stock: {quantityInStock}");
-Console.WriteLine($"Quantity purchase: {quantityPurchase}");
-Console.WriteLine($"Is it possible to make the sale? {isPossibleSale} ");
+switch (letter)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vowel");
+        break;
 
-
-if(quantityPurchase == 0)
-{
-    Console.WriteLine("Invalid sale.");
-}
-else if (isPossibleSale)
-{
-    Console.WriteLine("Sale made.");
-}
-else
-{
-    Console.WriteLine("Sorry. We do not have de desired quantity in stock.");
+    default:   
+        Console.WriteLine("Is not a vowel");
+        break;
 }
