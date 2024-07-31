@@ -1,13 +1,13 @@
 ﻿using ExemploFundamentos.Models;
 
-bool isOfLegalAge = true;
-bool hasAuthorization = false;
+bool hasMinimalPresence = true;
+double average = 7.5;
 
-if (isOfLegalAge || hasAuthorization)
+if (hasMinimalPresence && average >= 7)
 {
-    Console.WriteLine("Access allowed!");
+    Console.WriteLine("Approved!");
 }
 else
 {
-    Console.WriteLine("Access denied!");
+    Console.WriteLine("Disapproved!");
 }
