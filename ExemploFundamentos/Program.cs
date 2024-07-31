@@ -1,13 +1,13 @@
 ﻿using ExemploFundamentos.Models;
 
-bool hasMinimalPresence = true;
-double average = 7.5;
+bool reained = false;
+bool itsLate = false;
 
-if (hasMinimalPresence && average >= 7)
+if (!reained && !itsLate)
 {
-    Console.WriteLine("Approved!");
+    Console.WriteLine("I'm going to cycle");
 }
 else
 {
-    Console.WriteLine("Disapproved!");
+    Console.WriteLine("I'll ride another day");
 }
