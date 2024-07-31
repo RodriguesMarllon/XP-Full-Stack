@@ -1,15 +1,19 @@
 ﻿using ExemploFundamentos.Models;
 
-internal class Program
-{
-    private static void Main(string[] args)
-    {
-        Person p = new()
-        {
-            Name = "Marllon",
-            Age = 19
-        };
+int quantityInStock = 10;
+int quantityPurchase = 11;
+bool isPossibleSale = quantityInStock >= quantityPurchase;
 
-        p.Apresentar();
-    }
+Console.WriteLine($"Quantity in stock: {quantityInStock}");
+Console.WriteLine($"Quantity purchase: {quantityPurchase}");
+Console.WriteLine($"Is it possible to make the sale? {isPossibleSale} ");
+
+
+if (isPossibleSale)
+{
+    Console.WriteLine("Sale made.");
+}
+else
+{
+    Console.WriteLine("Sorry. We do not have de desired quantity in stock.");
 }

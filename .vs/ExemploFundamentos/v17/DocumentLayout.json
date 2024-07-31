@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\00 - Projects\\XP-Full-Stack\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36D2AD3C-CC21-4F7E-BA4F-66783A483C5C}|ExemploFundamentos\\ExemploFundamentos.csproj|d:\\00 - projects\\xp-full-stack\\exemplofundamentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D2AD3C-CC21-4F7E-BA4F-66783A483C5C}|ExemploFundamentos\\ExemploFundamentos.csproj|solutionrelative:exemplofundamentos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\00 - Projects\\XP-Full-Stack\\ExemploFundamentos\\Program.cs",
+              "RelativeDocumentMoniker": "ExemploFundamentos\\Program.cs",
+              "ToolTip": "D:\\00 - Projects\\XP-Full-Stack\\ExemploFundamentos\\Program.cs*",
+              "RelativeToolTip": "ExemploFundamentos\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T23:47:04.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
