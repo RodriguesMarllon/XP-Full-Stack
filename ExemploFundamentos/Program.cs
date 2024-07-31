@@ -1,15 +1,19 @@
 ﻿using ExemploFundamentos.Models;
 
 int quantityInStock = 10;
-int quantityPurchase = 11;
-bool isPossibleSale = quantityInStock >= quantityPurchase;
+int quantityPurchase = 0;
+bool isPossibleSale = quantityPurchase > 0 && quantityInStock >= quantityPurchase;
 
 Console.WriteLine($"Quantity in stock: {quantityInStock}");
 Console.WriteLine($"Quantity purchase: {quantityPurchase}");
 Console.WriteLine($"Is it possible to make the sale? {isPossibleSale} ");
 
 
-if (isPossibleSale)
+if(quantityPurchase == 0)
+{
+    Console.WriteLine("Invalid sale.");
+}
+else if (isPossibleSale)
 {
     Console.WriteLine("Sale made.");
 }
