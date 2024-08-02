@@ -1,13 +1,8 @@
 ﻿using ExemploFundamentos.Models;
 
-bool reained = false;
-bool itsLate = false;
+int number = 5;
 
-if (!reained && !itsLate)
+for(int counter = 0; counter <= 10; counter++)
 {
-    Console.WriteLine("I'm going to cycle");
-}
-else
-{
-    Console.WriteLine("I'll ride another day");
+    Console.WriteLine($"{number} x {counter} = {number * counter}");
 }
