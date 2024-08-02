@@ -1,8 +1,10 @@
 ﻿using ExemploFundamentos.Models;
 
 int number = 5;
+int counter = 0;
 
-for(int counter = 0; counter <= 10; counter++)
+while (counter <= 10)
 {
     Console.WriteLine($"{number} x {counter} = {number * counter}");
+    counter ++;
 }
